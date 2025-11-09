@@ -18,7 +18,7 @@ The challenge of successfully delivering evidence-grounded insights to decisionm
 **For decisionmakers**, PEP provides a more interactive experience than a standard policy analysis report, enabling comparisons between alternatives and a way to swiftly iterate on options or proposals.  
 **For policy analysis professionals**, PEP provides a framework for organizing ideas and data, summarizing data according to established practices, and exporting regression-ready datasets for follow-up statistical analyses.  
 **For educators**, PEP can be used as a teaching tool for policy analysis, providing a way to construct and customize examples without needing to write your own code and giving students a structured format to work through their own analyses.  
-**For advanced R users in the policy and the social sciences**, PEP can provide a customizable and extensible foundation for building custom applications for organizations that need low-cost and low-complexity solutions.  
+**For advanced R users in policy and the social sciences**, PEP can provide a customizable and extensible foundation for building custom applications for organizations that need low-cost and low-complexity solutions.  
 
 ## Our Roadmap
 
