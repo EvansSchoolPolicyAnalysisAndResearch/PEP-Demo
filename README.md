@@ -3,13 +3,13 @@
 ## Setup for first-time users
 - If you don't already have them, download [R](https://cran.rstudio.com/) and [R Studio](https://posit.co/download/rstudio-desktop/). [Rtools](https://cran.r-project.org/bin/windows/Rtools/) is strongly recommended for Windows users.
 - Either download the latest release of this repository or clone it using your preferred git client.
-- Open the .Rproj file in the main directory (it should automatically load in R Studio)
+- Open the .Rproj file in the main directory (it should automatically load in R Studio).
 - Type `renv::restore()` into the console to automatically download and install the packages.
 - Open app.R and press the "Run App" button that appears in the upper right hand corner of the file viewer pane or type `shiny::runApp()` into the console.
 - Follow the instructions in the user guide for setting up the app with your own data, or explore examples using [the demo](https://github.com/EvansSchoolPolicyAnalysisAndResearch/PEP-Demo).
 
 ## What is PEP?
-Originally developed to facilitate policy analysis and program implementation based on data from recurring agricultural surveys, PEP can be a general-purpose policy analysis framework for other survey-based, administrative, or RCT datasets. Elements of the user interface and data management are controlled through spreadsheets to enable users to navigate large datasets without having to write their own code.
+Originally developed to facilitate policy analysis and program implementation based on data from recurring agricultural surveys, PEP has now evolved into a general-purpose policy analysis framework for other survey-based, administrative, or RCT datasets. Elements of the user interface and data management are controlled through spreadsheets to enable users to navigate large datasets without having to write their own code.
 
 ## Why build PEP?
 
