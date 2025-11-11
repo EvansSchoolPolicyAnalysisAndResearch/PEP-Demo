@@ -29,4 +29,4 @@ This project is under active development, and we intend to continue releasing fe
 
 ## Talk to us!
 
-Please feel free to submit an issue (requires free GitHub account) or email us @ XXX if with feedback or suggestions.
+Please feel free to submit an issue (requires free GitHub account) or email us @ uw.eparx@gmail.com with feedback or suggestions.
