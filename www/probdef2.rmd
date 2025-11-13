@@ -1,0 +1,85 @@
+---
+title: "Problem Statement"
+author: "EPAR"
+output: 
+  html_fragment:
+      self_contained: true  # Includes all JS/CSS dependencies inline
+---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, fig.align="center")
+#knitr::opts_knit$set(root.dir = "R:\\EPAR\\Working Files\\457 - APPAM 2025\\App\\PolicyAnalyzR")
+library(RColorBrewer)
+library(plotly)
+library(dplyr)
+```
+
+In collaboration with app maintainers, the users are able to view, analyze, and create figures to understand trends in education supply and demand in the US. Variables in the data are grouped according to policy themes for ease of navigation.
+
+### Value Addition to the Data Analysis Process
+
+The Policy Explorer Platform bridges the gap between data collection and policy decision making. It provides the opportunity to combine knowledge from scholarly research in education policy with observed trends in variables collected in the field. These trends can inform progress toward established goals or aid in the formation of new programs. The results of those policies become visible in new data collection, which is added through updates.
+
+<div align="center">
+![](logic-model.png){width=30%}
+</div>
+
+### Flexible and Open-Source
+
+AgQuery distinguishes itself from other data analysis tools in the following ways:
+
+-   **Policy Context:** With policy expertise from EPAR and other stakeholders, this data explorer adds a new dimension to data visualization by taking into account Cambodia’s specific policy-context.
+
+    - It focuses on visualizing data according to the Cambodian Ministry of Agriculture’s domestic policy priorities, which can be updated to suit changing needs.
+
+    - Not only does our explorer align with the ministry, but it also provides specific policy pathways through which progress can be tracked and measured.
+
+-   **Open-source platform:**The code for developing the website is open-source. It is free of charge and publicly available to modify or reuse.
+
+-   **Customizable Data:** Data can be easily modified, extended, or replaced as new surveys are released without requiring modifications to the code.
+
+### Using PEP
+
+#### Policy Goals and Instruments
+
+-   This tab provides a detailed overview of the policy priorities currently in the app. Policy instruments for achieving each goal are evaluated with respect to the effects on producer interaction with the market. The list can be modified by editing an Excel sheet.
+
+#### Variable Maps and Statistics
+
+-   This tab shows summary statistics (weighted means or totals), year-over-year changes, and spatial distributions of variables related to the policy goals. Begin by selecting a policy goal, then optionally choose an instrument to show the most relevant variables for that instrument. Maps illustrate the province-level means as of the most recent survey and the change in means since the previous survey.
+
+#### Variable Correlations
+
+-   This tab contains a heatmap showing levels of correlation across variables and the option to make histograms, maps, and scatter plots. Users can also download raw data for follow-up analyses.
+
+#### Secondary Data Sources
+
+-   This tab contains a table of policy documents, literature citations, and additional sources of useful data, such as import/export statistics, exchange rates, and food balances.
+
+#### User Guide
+
+-   This tab provides step-by-step instructions, tips, and frequently asked questions (FAQs) about the data explorer.
+
+
+### Code and Data Availability
+
+-   The Stata code used to process the data is publicly available at <https://github.com/EvansSchoolPolicyAnalysisAndResearch/XXX>.
+
+-   The app source code and related files can be downloaded at <https://github.com/EvansSchoolPolicyAnalysisAndResearch/XXX>
+
+-   The raw data for the Cambodia Agricultural Survey survey are located at <https://nada.nis.gov.kh/index.php/catalog/XX>.
+
+### Inquire
+
+This tool is currently maintained by the Evans Policy Analysis and Research group at the University of Washington. Please reach out via the [GitHub repository](https://github.com/EvansSchoolPolicyAnalysisAndResearch/XXX) with questions or bug reports.
+
+### Citation
+
+If you use this app for scholarly research or modify it for alternative uses, please use this attribution:
+
+University of Washington, Evans Policy Analysis and Research (EPAR) (2025). Cambodia Agricultural Survey Policy & Data Explorer. v0.2. DOI: <https://doi.org/10.6069/GPPQ-2X85>
+
+![](evans2.jpg){width="435"}
+
+
+
