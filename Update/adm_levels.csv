@@ -1,1 +1,5 @@
 admLevel,admLabel,shortName
+adm0,Country,NA
+adm1,State,STABBR
+adm2,County,COUNTYNM
+adm3,College,UNITID

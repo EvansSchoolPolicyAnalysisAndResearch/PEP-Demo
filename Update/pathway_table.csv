@@ -1,1 +1,7 @@
 ﻿pathwayID,goalName,Pathway,Tool,Policy Option,Cost to college,Cost to student,Political feasibility,Quality of Education,Speed to implement,Overall Feasibility
+1,Access,Reduce expected cost,Subsidy,Provide need-based scholarships ,⬆,⬇,?,⬆,Medium,Medium
+2,Access,Reduce expected cost,Subsidy,Support remote-instruction,⬆,⬇,⬆,?,Medium,High
+3,Access,Reduce expected cost,Subsidy,Provide transportation subsidy,=,⬇,?,⬍,Fast,Medium
+4,Access,Increase perceived benefits,Information,Sponsor alumni visits & networking,⬆,⬆,=,⬍,Slow,Medium
+5,Access,Increase perceived benefits,Information,Provide graduation job & salary data,⬆,?,=,⬍,Medium,Medium
+6,Dummy,Dummy,Dummy,Dummy,,,,,,

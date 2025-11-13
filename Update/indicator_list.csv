@@ -1,1 +1,13 @@
-﻿shortName,label,axis,units,numerator,denominator,weight,caption,category,w_lower,w_upper
+﻿shortName,category,label,axis,units,numerator,denominator,weight,caption,w_lower,w_upper
+PCLOCALE,Location,Urbanization,Degree of urbanization,Boolean,,,,Urban-centric locale,,
+PCFT_FTUG,Demographics,Undergraduate Enrollment,Undergraduate students enrolled,Students,,,,First time degree seeking students,,
+PCCHG2AT3,Costs,Tuition,Tuition,Dollars,,,,Most recent published in-state tuition,,
+PCCHG2AF3,Costs,Fees,Fees,Dollars,,,,Most recent published in-state fees,,
+PCCHG5AY3,Costs,Room & Board,Room and Board,Dollars,,,,Most recent published room and board costs,,
+PCLNAYHR1,Academics,Length of Year,Total length of academic year (as used to calculate your Pell budget) in clock or credit hours,Time,,,,"Length of the academic year, used to calculate Pell Grant eligibility",,
+EFYDEEXC,Academics,Exclusive Distance Education,Number of students in distance education ,Students,,,,Students enrolled exclusively in distance education courses,,
+EFYDESOM,Academics,Some Distance Education,Number of students enrolled in some distance education classes,Students,,,,Students enrolled in some but not all distance education courses,,
+EFYDENON,Academics,No Distance Education,Number of students taking no distance education courses,Students,,,,Students not enrolled in any distance education courses,,
+EFYTOTLM,Demographics,Male enrollment,Number of men enrolled,Students,,,,Grand total men,,
+EFYTOTLW,Demographics,Female enrollment,Number of women enrolled,Students,,,,Grand total women,,
+TUITION1,Costs,Full-time tuition,Tuition,Dollars,,,, In-district average tuition for full-time undergraduates,,
